@@ -234,7 +234,7 @@
 		}
 
 		.sub li a {
-		    margin-left: 60px;
+		    margin-left: 50px;
 		}
 
 		.sideBar-adver {
@@ -401,107 +401,6 @@
 			background-size:cover;
 		}
 
-		/* 중간 표 영역 */
-
-		.logo1 {
-			width: 140px; /* 원하는 너비로 설정하세요. */
-			height: auto; /* 높이는 자동으로 조정됩니다. */
-			margin-top: 40px;
-		}
-		.black-link,
-		.black-link:visited {
-			color: black;
-			text-decoration: none; /* 밑줄 제거 */
-		}
-		
-		.iconlogo {
-			position: relative;
-			top: 6px; /* 아이콘을 아래로 5px 이동 */
-			
-		}
-		
-		.pagination {
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			margin-top: 20px;
-		}
-		
-		
-		
-		.pagination-box {
-			display: flex;
-			align-items: center;
-		}
-		
-		.page-links {
-			display: flex;
-			margin: 0 10px;
-		}
-		
-		.page-link, .prev, .next {
-			padding: 5px 10px;
-			background: rgb(240, 240, 240);
-			margin: 0 3px;
-			text-decoration: none;
-			color: #333;
-			border-radius: 7px; /* 모서리를 둥글게 만듦 */
-		}
-		
-		.page-link:hover, .prev:hover, .next:hover {
-			background-color: darkorange;
-			cursor: pointer;
-		}
-
-
-		table {
-			border-collapse: collapse; /* 테이블 셀 경계를 합침 */
-			width: 100%; /* 테이블이 부모 요소에 가득 차도록 함 */
-			border-spacing: 10px;
-		}
-		
-		th, td {
-			border-top: 1px solid #ddd; /* 상단에만 회색 선 추가 */
-			border-bottom: 1px solid #ddd; /* 하단에만 회색 선 추가 */
-			padding: 20px; /* 셀 안의 여백 설정 */
-			text-align: left; /* 셀 안의 텍스트를 왼쪽 정렬 */
-		}
-		
-		th {
-			/* background-color: #f2f2f2; 헤더 셀에 연한 회색 배경색 추가 */
-			border-top: none; /* 헤더 셀의 상단 선 제거 */
-			border-bottom: 1px solid #ddd; /* 헤더 셀의 하단에만 회색 선 추가 */
-		}
-		
-		td a{
-			color: black;
-		}
-		
-		.container {
-			display: flex;
-			justify-content: space-between; /* 컨테이너 내부 요소들을 좌측과 우측에 배치 */
-			width: 100%;
-			height: 1020px;
-			
-			margin: 0 auto; /* 화면 가운데 정렬 */
-		}
-		
-		
-		.searchcontainer {
-			display: flex;
-			justify-content: space-between; /* 좌우에 요소를 배치 */
-			width: 100%;
-			margin-top: 40px;
-		}
-		
-		.searchright {
-			 /* 우측 영역의 너비를 30%로 설정 */
-			display: flex; /* 내부 요소들을 가로로 배치 */
-			justify-content: flex-end; /* 내부 요소를 오른쪽으로 정렬 */
-			align-items: center; /* 내부 요소를 세로 방향 가운데 정렬 */
-			margin-left: auto; /* 오른쪽으로 이동시킴 */
-		}
-		
 		.first{
 			font-size: 30px;
 			font-weight: 1000;
@@ -509,49 +408,203 @@
 			margin-left: 3%;
 		}
 
-				/* 중간영역 시작 */
+
+        				/* 중간영역 시작 */
 				.middle {
-					width:1033px;
+					width:1060px;
 					height:590px;
 					position:absolute;
-					left:571px;
-					top:80px
+					left:150px;
+					top:0px					
+				}
+
+
+				/* 내용작성 박스*/
+				.quest { 
+					background-color:whitesmoke;
+					border-top: 1px solid #ddd; 
+					width:1059px;
+					height:227px;
+					position:absolute;
+					left:65.5px;
+					top:277px;				
+				}
+
+				
+				.write { 
+					color:rgba(181.09426975250244, 183.07396352291107, 192.31249898672104, 1);
+					width:100cqmax;
+					height:18px;
+					position:absolute;
+					left:10px;
+					top:10px;
+				}
+
+					.detail{				
+					border-top: none; 
+					position: relative;
+					padding-left: 0px;
+					padding-top: 0px;
 					
 				}
+				textarea {
+					width:1059px;
+					height:227px;
+					border: none;
+					resize: none;
+					
+				}
+
+
+
+
 
 				.middle_box {
 			
 					box-shadow: 0px 10px 60px rgba(225.83437621593475, 236.193745136261, 248.62500607967377, 0.5);
-					background-color: rgba(255, 255, 255, 1);
-					
-				}
-
-				/* 작성 */
-				.write a{ 
-					color:black;
-					width:72px;
-					height:25px;
+					background-color: rgba(255, 255, 255, 1); 
+					width:1420px;
+					height:890px;
 					position:absolute;
-					font-size:14px;
+					left:400px;
+					top:150px									
+				} 
+
+
+				.box1{
+					width: 140px;
 					
+					background-color: rgb(241, 241, 241);
+					color: gray;
+					border-radius: 10px;
+					padding: 7px;
+					
+					margin: 15px;
+					text-align: center;
+				}
+				.box2{
+					width: 200px;
+					color: gray;
+					
+					background-color:  rgb(241, 241, 241);
+					border-radius: 10px;
+				
+					padding: 7px;
+					margin: 15px;
+					text-align: center;
 				}
 				
 				
-				.writepo {
+				
+				.box{
 					display: flex;
-					justify-content: flex-end;
-					align-items: center;
-					width:72.1487808227539px;
-					height:40.396484375px;
-					margin-left: 890px;
+					justify-content: right;
 					
 				}
 
-			
-				.title {
-					list-style-type: none;
+				/* .title{
+					color: lightgray;
+					border-top: none; 
+					border-bottom: 1px solid #ddd; 
+					padding: 15px 0;
+					position: relative;
+					padding-left: 140px;
+					
+				}  */
 
-					margin-left: 60px;
-					margin-top: 60px;
-					font-size: 30px;
+/* 
+				.title input{
+				
+					width: 500px;
+					
+					padding: 4px;
+					
+				} */
+				
+				/* .detail{
+					color: lightgray;
+					border-top: none; 헤더 셀의 상단 선 제거
+					border-bottom: 1px solid #ddd; 헤더 셀의 하단에만 회색 선 추가
+					padding: 15px 0;
+					position: relative;
+					padding-left: 70px;
+				} */
+				
+				/* .detail label{
+				
+					position: relative;
+					bottom: 157px;
+				
+					
 				}
+				.detail textarea{
+					font-size: 15px;
+				
+					width: 700px;
+				}
+				 */
+				/* .answer{
+					color: lightgray;
+					border-top: none; 헤더 셀의 상단 선 제거
+					border-bottom: 1px solid #ddd; 헤더 셀의 하단에만 회색 선 추가
+					padding: 15px 0;
+					position: relative;
+					padding-left: 70px;
+				} */
+/* 				
+				.answer label{
+				
+					position: relative;
+					bottom: 157px;
+				} */
+/* 
+				.answer textarea{
+					font-size: 15px;
+				
+					width: 700px;
+				} */
+				
+				
+				/* .submitbtn{
+					display: flex;
+					justify-content: right;
+				} */
+				
+				.submitbtn button{
+					/* 버튼의 높이와 너비를 조정하여 크게 만듭니다. */
+					width: 110px;
+					padding: 7px 10px ;
+				
+				
+					/* 배경색을 주황색으로 설정합니다. */
+					background-color: orange;
+				
+					/* 글자 색을 변경합니다. */
+					color: white;
+				
+					/* 글자 크기를 크게 설정합니다. */
+					
+				
+					/* 모서리를 둥글게 만듭니다. */
+					border-radius: 9px;
+				
+					/* 테두리를 없앱니다. */
+					border: none;
+				
+					/* 버튼 안의 텍스트를 가운데 정렬합니다. */
+					text-align: center;
+				
+					/* 버튼 안의 텍스트의 여백을 조정합니다. */
+					
+					margin: 15px;
+				
+				}
+				
+				.submitbtn button:hover{
+					background-color: darkorange;
+				}
+				
+				.black-link{
+					color: black;
+				}
+				
