@@ -419,23 +419,35 @@
 				}
 
 
-				/* 내용작성 박스*/
-				.quest { 
+				/* 내용작성 완료 박스*/
+				.quest1 { 
 					background-color:whitesmoke;
 					border-top: 1px solid #ddd; 
 					width:1059px;
-					height:503px;
+					height:250px;
 					position:absolute;
 					left:65.5px;
 					top:277px;				
 				}
+
+				.quest2 { 
+					background-color:whitesmoke;
+					border-top: 1px solid #ddd; 
+					width:1059px;
+					height:250px;
+					position:absolute;
+					left:65.5px;
+					top:580px;				
+				}
+
 
 				
 					.detail{				
 					border-top: none; 
 					position: relative;
 					padding-left: 0px;
-					padding-top: 0px;					
+					padding-top: 0px;
+                    font-size: 20px;					
 				}
 
 				/* 내용작성 글상자 */
