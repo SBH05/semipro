@@ -597,73 +597,7 @@
 					
 				}
 
-				/* .title{
-					color: lightgray;
-					border-top: none; 
-					border-bottom: 1px solid #ddd; 
-					padding: 15px 0;
-					position: relative;
-					padding-left: 140px;
-					
-				}  */
 
-/* 
-				.title input{
-				
-					width: 500px;
-					
-					padding: 4px;
-					
-				} */
-				
-				/* .detail{
-					color: lightgray;
-					border-top: none; 헤더 셀의 상단 선 제거
-					border-bottom: 1px solid #ddd; 헤더 셀의 하단에만 회색 선 추가
-					padding: 15px 0;
-					position: relative;
-					padding-left: 70px;
-				} */
-				
-				/* .detail label{
-				
-					position: relative;
-					bottom: 157px;
-				
-					
-				}
-				.detail textarea{
-					font-size: 15px;
-				
-					width: 700px;
-				}
-				 */
-				/* .answer{
-					color: lightgray;
-					border-top: none; 헤더 셀의 상단 선 제거
-					border-bottom: 1px solid #ddd; 헤더 셀의 하단에만 회색 선 추가
-					padding: 15px 0;
-					position: relative;
-					padding-left: 70px;
-				} */
-/* 				
-				.answer label{
-				
-					position: relative;
-					bottom: 157px;
-				} */
-/* 
-				.answer textarea{
-					font-size: 15px;
-				
-					width: 700px;
-				} */
-				
-				
-				/* .submitbtn{
-					display: flex;
-					justify-content: right;
-				} */
 				
 				.submitbtn button{
 					/* 버튼의 높이와 너비를 조정하여 크게 만듭니다. */
