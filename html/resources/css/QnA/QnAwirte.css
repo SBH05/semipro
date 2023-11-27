@@ -409,7 +409,17 @@
 		}
 
 
+
         				/* 중간영역 시작 */
+			
+				/* 마이페이지 */
+				.title {
+					list-style-type: none;
+					padding: 23px;
+					font-size: 30px;
+				}
+
+
 				.middle {
 					width:1060px;
 					height:590px;

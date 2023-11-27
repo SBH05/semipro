@@ -643,3 +643,11 @@
 					color: black;
 				}
 				
+
+				
+				/* 마이페이지 */
+				.title {
+					list-style-type: none;
+					padding: 23px;
+					font-size: 30px;
+				}

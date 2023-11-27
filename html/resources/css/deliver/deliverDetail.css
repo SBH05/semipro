@@ -396,12 +396,21 @@
 			position:absolute;
 			left:-100px;
 			top:40px;
-			background-image:url(/resource/imege/logonon_2.png);
+			background-image:url(/resources/imege/lcon/logonon_2.png);
 			background-repeat:no-repeat;
 			background-size:cover;
 		}
 
 		/* 중간 영역 */
+
+
+				/* 마이페이지 */
+				.title {
+					list-style-type: none;
+					padding: 23px;
+					font-size: 30px;
+				}
+
 
 		.logo1 {
 			width: 140px; /* 원하는 너비로 설정하세요. */
