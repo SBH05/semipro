@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>userQnA-AnswerRE</title>
-    <link rel="stylesheet" href="/resources/css/QnA/QnAanswerRE.css">
-    <link rel="stylesheet" href="/resources/css/background, header, footer.css">
+    <title>deliverMainPage</title>
+    <link rel="stylesheet" href="/resources/css/memberWithdrawal/seller.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -86,11 +85,11 @@
                 
                 <div id="navSide">
                     <ul class="sideBar-toggle">
-                        <li><a href="#">내정보관리</a><br>
+                        <strong><li><a href="#">내정보관리</a><br></strong>
                             <ul class="sub">
                                     <li><a href="#">개인정보 변경</a>
-                                    <li><a href="#">회원탈퇴 </a>
-                                    <li><a href="/view/changePage/sellerPage.html">판매자 전환</a>
+                                    <strong><li><a href="#">회원탈퇴 </a></strong>
+                                    <li><a href="/view/changePage/userChange.html">구매자 전환</a>
                             </ul>
                         </li>
                     </ul>
@@ -102,11 +101,19 @@
                             </ul>
                         </li>
                     </ul>
-                    <strong><li><a href="/view/userQnA/userMainPage/userQnAmainpage.html">QnA</a></li></strong>
-                    <li><a href="/view/userDeliver/userMainPage/userDeliverMainPage.html">배송현황</a></li>
+                    <li><a href="/view/sellerQnA/sellerMainPage/sellerQnAmainpage.html">QnA</a></li>
+                    <li><a href="/view/sellerDeliver/sellerMainPage/sellerDeliverMainPage.html">배송현황</a></li>
                     <li><a href="#">게시판</a></li>
-
-
+                    <ul class="sideBar-toggle">
+                        <li><a href="#">판매자기능</a>
+                            <ul class="sub">
+                                <li><a href="/view/seller Manage/seller-buyerManage/sellerUserManage.html">구매자 조회</a>
+                                <li><a href="/view/seller Manage/seller-project/sellerProjectSeach.html">프로젝트 조회</a>
+                                <li><a href="/view/seller Manage/seller-QnAmanage/sellerQnAmanage.html">QnA관리</a>
+                            </ul>
+                        </li>
+                    </ul>
+                    
                 </div>
                     <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
                     <script type="text/javascript">
@@ -129,81 +136,73 @@
                         </div>
             </div>       
         
-        </div>
-
-
-
-        <div class="middle_box">
-        
-            <div class="middle">
-            <!-- 가운데 컨텐츠 -->
-            <div class="first">
+        </div>                 
+                        
                 
-                <span>QnA</span>
-            </div>
-        
-            <div>
-                <a href="#"><img class="logo1" src="/resources/images/textlogonone_2.png" alt=""></a>
-            </div>
+         
+        <div class="middle_box">
+                <div class="middle">
+                    <div class="first">
+                        <span>회원탈퇴</span>
+                    </div>
+                        
+                <div>
+                    <img class="logo1" src="/resources/imege/lcon/textlogonone_2.png"  width="150px" height="150px" >
+                </div>
+                
+                <div class="withdrawal">
+
+                    <strong><span class="withdrawal_name">서보혜님!</span></strong>
+                    <span class="withdrawal_not">클라우드 푸딩을 이용하시는데 혹시 아래와 같은 불편함이 있으셨으면, 아래 방법을 한번 이용해보세요.</span>
+
+                    <div class="withdrawal_notbox">
+                    <strong><span class="withdrawal_notinsert">이메일 수신이 불편하신가요?</span></strong>
+                    <span class="withdrawal2_notinsert">수신거부는 마이페이지 > 개인정보변경에서 하실 수 있습니다.</span>
+                    <strong><span class="withdrawal3_notinsert">기타 불편한 사항이 있으시면 언제든 클라우드 푸딩에게 알려주세요.</span></strong>
+                    <span class="withdrawal4_notinsert">클라우드 푸딩에 문의하기 | cloudfooding@gmail.com</span>
+                    </div> 
+                    
+                    <strong><span class="incon">어떤 점이 불편하셨나요? <span class="star">*</span></span></strong>
+                    <span class="incon_in">와디즈를 이용하면서 불편했던 점을 말씀해주시면, 클라우드 푸딩의 서비스 개선에 참고하도록 하겠습니다.</span>
+                    
             
-            <div class="submitbtn1"><button type="submit">수정하기</button></div>
-            <div class="submitbtn2"><button type="submit">삭제하기</button></div>
-
-            <div class="box">
-                <span class="box1">작성번호 : 1</span>
-                <span class="box1">작성자:김민*</span>
-                <span class="box2">작성일자                    
-                        <!-- <script>
-                            date = new Date().toLocaleDateString();
-                            document.write(date);
-                        </script> -->
-                </span>
-            </div>
-
-            <form action="" method="post">
-                <div class="wirte_title">제목 </div>
-                <div class="project_title">프로젝트명</div>
-                <div class="seller_name">판매자</div>
-                <div class="title_detail">풍미가 좋은 드라이에이징 삼겹살</div>
-                <div class="project_detail">풍미가 좋은 드라이에이징 삼겹살</div>
-                <div class="seller_detail">황황도축시장</div>
-                <div class="bar"></div>
-
-                <div class="quest1">
-                <div class="detail" >얼마나 보관할 수 있나요?? </div>
                 </div>
 
-                <div class="quest2"></div>
-                
-            </form>            
 
-
+        
+                        
+                    
+                    
+                </div>
+        </div>
+        
+        
+        
+                <!-- 우측 컨텐츠 -->
+        
+            
+        
+        
+            <!-- Footer -->
+        
+            <div class=footer>
+                <div class="footer-back"></div>
+                <div class="footer-left"></div>
+                <div class=footer-group>
+                    <div class=footer-group-design><span  class="footer-down">
+                    일부 상품의 경우 와디즈는 통신판매중개자이며 통신판매 당사자가 아닙니다.
+                    해당되는 상품의 경우 상품, 상품정보, 거래에 관한 의무와 책임은 판매자에게 있으므로, 각 상품 페이지에서 구체적인 내용을 확인하시기 바랍니다. </span>
+                <div class=footer-up><span  class="footer-up-right">이메일 상담   abcdefg@gmail.com
+                    유선 상담 1234-5678</span>
+                    <span  class="footer-up-left">Cloud Fooding 클라우드 푸딩
+                    사업자 등록번호 1234-56-7890
+                    서울 종로구 인사동길 12 대일빌딩 7층 클라우드 푸딩
+                    </span>
+                </div>
+                <div class="footer-logo"></div>
+                    </div>
+                </div>
             </div>
-        </div>
-
-
- <!-- Footer -->
-
- <div class=footer>
-    <div class="footer-back"></div>
-    <div class="footer-left"></div>
-    <div class=footer-group>
-        <div class=footer-group-design><span  class="footer-down">
-        일부 상품의 경우 와디즈는 통신판매중개자이며 통신판매 당사자가 아닙니다.
-        해당되는 상품의 경우 상품, 상품정보, 거래에 관한 의무와 책임은 판매자에게 있으므로, 각 상품 페이지에서 구체적인 내용을 확인하시기 바랍니다. </span>
-    <div class=footer-up><span  class="footer-up-right">이메일 상담   abcdefg@gmail.com
-        유선 상담 1234-5678</span>
-        <span  class="footer-up-left">Cloud Fooding 클라우드 푸딩
-        사업자 등록번호 1234-56-7890
-        서울 종로구 인사동길 12 대일빌딩 7층 클라우드 푸딩
-        </span>
-    </div>
-    <div class="footer-logo"></div>
-        </div>
-    </div>
-</div>
-
-
-
+        
 </body>
 </html>
