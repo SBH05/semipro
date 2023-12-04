@@ -5,13 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>userDeliverMainPage</title>
     <link rel="stylesheet" href="/resources/css/deliver/deliverMain.css">
+    <link rel="stylesheet" href="/resources/css/header-main/css.css">
+    <link rel="stylesheet" href="/resources/css/footer/css.css">
+
 
 </head>
 <body>
     <header>
 
         <!-- 로고 이미지 -->
-            <img src="/resources/imege/lcon/textlogonone_2.png" alt="로고" width="100" class="logo-image">
+            <img src="/resources/images/01_logoimg/textLogoNone.png" alt="로고" width="100" class="logo-image">
         
         
             <!-- 상단 메뉴 -->
@@ -65,9 +68,10 @@
             </div>
         
             <!-- 프로젝트 시작하기 -->
-            <div class="project-button">
-                <a href="#">프로젝트 시작하기</a>
-            </div>     
+            <div class="project1-button">
+                <!-- <a href="#">프로젝트 시작하기</a> -->
+            </div> 
+                
             </header>
         
         
@@ -138,7 +142,7 @@
                         </div>
         
                         <div>
-                            <img class="logo1" src="/resources/imege/lcon/textlogonone_2.png"  width="150px" height="150px" >
+                            <img class="logo1" src="/resources/images/01_logoimg/textLogoNone.png"  width="150px" height="150px" >
                         </div>
         
                         
@@ -170,6 +174,7 @@
                                 <th>결제일</th>
                                 <th>취소/반송하기</th>
                                 <th>구매확정</th>
+                                <th>배송</th>
                             </tr>
         
         
@@ -178,63 +183,69 @@
                                 <td>1</td>
                                 <!-- <td><img class="food" src="/resource/imege/food/image_111.png"></td> -->
                                 <td>
-                                    <img class="food" src="/resources/imege/food/image_111.png">
+                                    <img class="food" src="/resources/images/food/image_111.png">
                                     <a class="black-link" href="/view/userDeliver/userDeliverDetailPage/userDeliverDtail.html" id="questionLink">풍미가 좋은 드라이에이징 삼겹살</a>
                                 </td>
                                 <td>2023 / 11 / 20</td>
                                 <td><a class="black-link" href="#" id="questionLink">취소/반송하기</a></td>
                                 <td><span class="close">구매확정완료</span></td>
+                                <td><span class="close">배송완료</span></td>
                             </tr>
                             <tr>
                                 <td>2</td>
                                 <td>
-                                    <img class="food" src="/resources/imege/food/image_112.png">
+                                    <img class="food" src="/resources/images/food/image_112.png">
                                     <a class="black-link" href="#" id="questionLink">명품 토종 옥광밤</a>
                                 </td>
                                 <td>2023 / 11 / 16</td>
                                 <td>접수중</td>
                                 <td ><a class="black-link" href="#" id="questionLink"><span class="ing">구매확정하기</span></a></td>
+                                <td><span class="close">배송중</span></td>
                                 
                             </tr>
                             <tr>
                                 <td>3</td>
                                 <td>
-                                    <img class="food" src="/resources/imege/food/image_113.png">
+                                    <img class="food" src="/resources/images/food/image_113.png">
                                     <a class="black-link" href="#" id="questionLink">무설탕 초콜릿</a>
                                 </td>
                                 <td>2023 / 11 / 16</td>
                                 <td><a class="black-link" href="#" id="questionLink">취소/반송하기</a></td>
                                 <td><span class="close">구매확정완료</span></td>
+                                <td><span class="close">배송완료</span></td>
                             </tr>
                             <tr>
                                 <td>4</td>
                                 <td>
-                                    <img class="food" src="/resources/imege/food/image_114.png">
+                                    <img class="food" src="/resources/images/food/image_114.png">
                                     <a class="black-link" href="#" id="questionLink">야마야 모츠 나베</a>
                                 </td>
                                 <td>2023 / 11 / 16</td>
                                 <td><a class="black-link" href="#" id="questionLink">취소/반송하기</a></td>
                                 <td><span class="close">구매확정완료</span></td>
+                                <td><span class="close">배송완료</span></td>
                             </tr>
                             <tr>
                                 <td>5</td>
                                 <td>
-                                    <img class="food" src="/resources/imege/food/image_115.png">
+                                    <img class="food" src="/resources/images/food/image_115.png">
                                     <a class="black-link" href="#" id="questionLink">설향 딸기</a>
                                 </td>
                                 <td>2023 / 11 / 16</td>
                                 <td><a class="black-link" href="#" id="questionLink">취소/반송하기</a></td>
                                 <td><span class="close">구매확정완료</span></td>
+                                <td><span class="close">배송완료</span></td>
                             </tr>
                             <tr>
                                 <td>6</td>
                                 <td>
-                                    <img class="food" src="/resources/imege/food/image_116.png">
+                                    <img class="food" src="/resources/images/food/image_116.png">
                                     <a class="black-link" href="#" id="questionLink">돼지 왕뼈탕</a>
                                 </td>
                                 <td>2023 / 11 / 16</td>
                                 <td><a class="black-link" href="#" id="questionLink">취소/반송하기</a></td>
                                 <td><span class="close">구매확정완료</span></td>
+                                <td><span class="close">배송완료</span></td>
                             </tr>
                             <!-- <tr>
                                 <td>7</td>
@@ -283,26 +294,30 @@
             
         
         
-            <!-- Footer -->
-        
-            <div class=footer>
-                <div class="footer-back"></div>
-                <div class="footer-left"></div>
-                <div class=footer-group>
-                    <div class=footer-group-design><span  class="footer-down">
+    <!-- Footer -->
+    <div class="footer-container">
+    
+        <div class="footer-logo">               
+            <img src="/resources/images/01_logoimg/logoNone.png" alt="footer-logo" class="footer-logo">
+        </div>
+    
+        <div class="footer">
+            <div class="footer-back"></div>
+            <div class="footer-left"></div>
+            <div class=footer-group>
+                <div class=footer-group-design><span class="footer-down">
                     일부 상품의 경우 와디즈는 통신판매중개자이며 통신판매 당사자가 아닙니다.
-                    해당되는 상품의 경우 상품, 상품정보, 거래에 관한 의무와 책임은 판매자에게 있으므로, 각 상품 페이지에서 구체적인 내용을 확인하시기 바랍니다. </span>
-                <div class=footer-up><span  class="footer-up-right">이메일 상담   abcdefg@gmail.com
-                    유선 상담 1234-5678</span>
-                    <span  class="footer-up-left">Cloud Fooding 클라우드 푸딩
-                    사업자 등록번호 1234-56-7890
-                    서울 종로구 인사동길 12 대일빌딩 7층 클라우드 푸딩
-                    </span>
-                </div>
-                <div class="footer-logo"></div>
+                        해당되는 상품의 경우 상품, 상품정보, 거래에 관한 의무와 책임은 판매자에게 있으므로, 각 상품 페이지에서 구체적인 내용을 확인하시기 바랍니다. </span>
+                    <div class=footer-up><span class="footer-up-right">이메일 상담 abcdefg@gmail.com
+                            유선 상담 1234-5678</span><span class="footer-up-left">Cloud Fooding 클라우드 푸딩
+                            사업자 등록번호 1234-56-7890
+                            서울 종로구 인사동길 12 대일빌딩 7층 클라우드 푸딩
+                        </span>
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
         
 </body>
 </html>
